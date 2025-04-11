@@ -1,12 +1,13 @@
+import Button from './UI/Button';
 import logoImg from '../assets/logo.jpg';
-export default function Header(){
+export default function Header() {
     return <header id="main-header">
         <div id="title">
-            <img src={logoImg} alt=''/>
+            <img src={logoImg} alt='' />
             <h1>Food App</h1>
         </div>
         <nav>
-            <button>Cart (0)</button>
+            <Button textOnly>Cart (0)</Button>
         </nav>
     </header>
 }
