@@ -30,7 +30,7 @@ function cartReducer(state, action) {
         );
 
         if (existingCartItemIndex === -1) {
-            return state; // Item not found, no changes needed
+            return state; 
         }
 
         const existingCartItem = state.items[existingCartItemIndex];
